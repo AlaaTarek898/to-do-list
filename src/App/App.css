@@ -1,0 +1,47 @@
+.wrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.video {
+  position: absolute;
+  z-index: 1000000px;
+  top: 100px;
+  left: 300px;
+}
+.decor {
+  position: absolute;
+  transform: scale(0.55);
+
+  top: -400px;
+  left: -240px;
+}
+.decor2 {
+  position: absolute;
+  transform: scale(0.55);
+
+  top: -400px;
+  right: -240px;
+}

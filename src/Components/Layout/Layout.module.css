@@ -1,0 +1,49 @@
+.controls {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.controls label {
+  font-weight: bold;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.controls input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid lightseagreen;
+  background-color: #f8f8f8;
+}
+.controls textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid lightseagreen;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  padding-top: 30px;
+}

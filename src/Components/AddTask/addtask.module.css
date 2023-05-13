@@ -1,0 +1,48 @@
+.qoute {
+  display: flex;
+  width: 100%;
+  height: 120px;
+  justify-content: start;
+  align-items: center;
+  /* background-color: lightpink; */
+}
+.img1 {
+  position: absolute;
+  scale: 0.68;
+  top: 275px;
+  left: 155px;
+  margin-right: 200px;
+  border-radius: 50%;
+}
+.img2 {
+  position: absolute;
+  top: 178px;
+  scale: 0.32;
+  left: 400px;
+}
+.text1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+  position: absolute;
+  bottom: 120px;
+}
+.text2 {
+  position: absolute;
+  left: 290px;
+  bottom: 120px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.btn {
+}
+
+.fram {
+  position: absolute;
+  z-index: -1000px;
+  width: 115%;
+  top: -20px;
+  left: -40px;
+  transform: scale(0.68);
+}
